@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "test": "jest --watchAll",
-    "coverage": "jest --coverage"
+    "coverage": "jest --coverage",
+    "slicemachine": "start-slicemachine"
   },
   "dependencies": {
     "@prismicio/client": "^4.0.0",
@@ -20,6 +21,10 @@
     "whatwg-fetch": "^3.6.2"
   },
   "devDependencies": {
+    "slice-machine-ui": "^0.3.3",
+    "@prismicio/helpers": "^2.2.1",
+    "@prismicio/react": "^2.1.2",
+    "@prismicio/slice-simulator-react": "^0.2.0",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@types/node": "^14.14.31",

@@ -1,0 +1,79 @@
+{
+  "id": "posts",
+  "label": "posts",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "config": {
+          "label": "slug",
+          "placeholder": "Post UID..."
+        },
+        "type": "UID"
+      },
+      "title": {
+        "config": {
+          "label": "title",
+          "placeholder": "Titulo do post...",
+          "allowTargetBlank": true,
+          "single": "heading1"
+        },
+        "type": "StructuredText"
+      },
+      "subtitle": {
+        "config": {
+          "label": "subtitle",
+          "placeholder": "Subtítulo do post...",
+          "allowTargetBlank": true,
+          "single": "heading2,heading3,heading4,heading5,heading6"
+        },
+        "type": "StructuredText"
+      },
+      "author": {
+        "config": {
+          "label": "author",
+          "placeholder": "Nome do author",
+          "allowTargetBlank": true,
+          "single": "paragraph"
+        },
+        "type": "StructuredText"
+      },
+      "banner": {
+        "config": {
+          "label": "banner",
+          "constraint": {},
+          "thumbnails": []
+        },
+        "type": "Image"
+      },
+      "content": {
+        "config": {
+          "label": "content",
+          "placeholder": "",
+          "fields": {
+            "headding": {
+              "config": {
+                "label": "headding",
+                "placeholder": "Título da seção...",
+                "allowTargetBlank": true,
+                "single": "heading1,heading2,heading3,heading4,heading5,heading6"
+              },
+              "type": "StructuredText"
+            },
+            "body": {
+              "config": {
+                "label": "Body",
+                "placeholder": "Texto da seção...",
+                "allowTargetBlank": true,
+                "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+              },
+              "type": "StructuredText"
+            }
+          }
+        },
+        "type": "Group"
+      }
+    }
+  }
+}
