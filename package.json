@@ -11,6 +11,9 @@
     "slicemachine": "start-slicemachine"
   },
   "dependencies": {
+    "@prismicio/helpers": "^2.2.1",
+    "@prismicio/react": "^2.1.2",
+    "@prismicio/slice-simulator-react": "^0.2.0",
     "@prismicio/client": "^4.0.0",
     "date-fns": "^2.19.0",
     "next": "10.0.7",
@@ -22,9 +25,6 @@
   },
   "devDependencies": {
     "slice-machine-ui": "^0.3.3",
-    "@prismicio/helpers": "^2.2.1",
-    "@prismicio/react": "^2.1.2",
-    "@prismicio/slice-simulator-react": "^0.2.0",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@types/node": "^14.14.31",

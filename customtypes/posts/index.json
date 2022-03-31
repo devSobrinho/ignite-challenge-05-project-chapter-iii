@@ -12,27 +12,27 @@
         },
         "type": "UID"
       },
-      "title": {
+      "titleee": {
         "config": {
-          "label": "title",
+          "label": "titleee",
           "placeholder": "Titulo do post...",
           "allowTargetBlank": true,
           "single": "heading1"
         },
         "type": "StructuredText"
       },
-      "subtitle": {
+      "subtitlee": {
         "config": {
-          "label": "subtitle",
+          "label": "subtitlee",
           "placeholder": "Subtítulo do post...",
           "allowTargetBlank": true,
           "single": "heading2,heading3,heading4,heading5,heading6"
         },
         "type": "StructuredText"
       },
-      "author": {
+      "authorr": {
         "config": {
-          "label": "author",
+          "label": "authorr",
           "placeholder": "Nome do author",
           "allowTargetBlank": true,
           "single": "paragraph"
@@ -66,13 +66,41 @@
                 "label": "Body",
                 "placeholder": "Texto da seção...",
                 "allowTargetBlank": true,
-                "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
               },
               "type": "StructuredText"
+            },
+            "heading": {
+              "config": {
+                "label": "heading",
+                "placeholder": "Título da seção..."
+              },
+              "type": "Text"
             }
           }
         },
         "type": "Group"
+      },
+      "title": {
+        "config": {
+          "label": "title",
+          "placeholder": "Titulo do post..."
+        },
+        "type": "Text"
+      },
+      "subtitle": {
+        "config": {
+          "label": "subtitle",
+          "placeholder": "Subtítulo do post..."
+        },
+        "type": "Text"
+      },
+      "author": {
+        "config": {
+          "label": "author",
+          "placeholder": "Nome do author"
+        },
+        "type": "Text"
       }
     }
   }

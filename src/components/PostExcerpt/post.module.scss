@@ -1,0 +1,37 @@
+.title {
+  font-size: 1.75rem;
+  line-height: 2.125rem;
+  text-align: justify;
+  font-weight: bold;
+  color: var(--heading);
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 0.7346rem;
+  text-align: justify;
+  color: var(--body);
+  margin-bottom: 1.5rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  gap: 0.5rem;
+  color: var(--info);
+
+  span {
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
+    color: var(--info);
+    font-weight: normal;
+  }
+
+  time {
+    margin-right: 1rem;
+  }
+}

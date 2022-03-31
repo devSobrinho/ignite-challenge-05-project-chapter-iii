@@ -1,1 +1,128 @@
 // TODO
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  img {
+    width: 100%;
+    max-width: 1440px;
+    max-height: 400px;
+    margin-bottom: 5rem;
+
+  }
+
+  .loading {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+
+    .loadingContent {
+      svg {
+        color: var(--highlight);
+        animation-name: loading;
+        animation-duration: 500ms;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+
+        @keyframes loading {
+          from {
+            transform: rotate(0deg);
+          }
+          to {
+            transform: rotate(360deg);
+
+          }
+        }
+      }
+
+      p {
+        position: fixed;
+        font-size: 1rem;
+        font-weight: bold;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        color: var(--info)
+      }
+    }
+
+  }
+}
+
+.post{
+  margin: 0 2rem;
+  max-width: 720px;
+
+  .title {
+    font-size: 3rem;
+    line-height: 3.625rem;
+    text-align: justify;
+    font-weight: bold;
+    color: var(--heading);
+    margin-bottom: 1.5rem;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 0.5rem;
+    color: var(--info);
+    margin-bottom: 4rem;
+
+    span {
+      font-size: 0.875rem;
+      line-height: 1.0625rem;
+      font-weight: normal;
+    }
+
+    svg {
+      margin-left: 1rem;
+    }
+    svg:first-child {
+      margin-left: 0;
+
+    }
+  }
+
+  .content {
+    h2 {
+      font-size: 2.25rem;
+      line-height: 3.125rem;
+      font-weight: bold;
+      text-align: justify;
+      color: var(--heading);
+      margin: 3rem 0;
+    }
+
+    .contentBody {
+      font-size: 1.125rem;
+      line-height: 1.5625rem;
+      color: var(--body);
+
+      ul {
+        list-style: outside;
+      }
+
+      p,ul, li {
+        margin: 2rem 0;
+      }
+
+      strong {
+        font-weight: bold;
+      }
+
+      a {
+        color: var(--highlight);
+        transition: filter 200ms;
+        &:hover {
+          filter: brightness(0.8);
+        }
+      }
+    }
+  }
+}

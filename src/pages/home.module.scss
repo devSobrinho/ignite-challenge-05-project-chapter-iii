@@ -1,1 +1,30 @@
 // TODO
+
+.header {
+  margin: 5rem auto 4rem;
+  a {
+    img {
+      width: 240px;
+      height: 25px;
+    }
+  }
+}
+
+.post {
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+.loadingPosts {
+  margin: 4rem 0 2rem;
+  button {
+    color: var(--highlight);
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.375rem;
+    text-align: justify;
+    transition: filter 200ms;
+  }
+  button:hover {
+    filter: brightness(0.8);
+  }
+}

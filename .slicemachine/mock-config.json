@@ -1,24 +1,6 @@
 {
   "_cts": {
     "posts": {
-      "title": {
-        "config": {
-          "patternType": "HEADING",
-          "blocks": 1
-        }
-      },
-      "subtitle": {
-        "config": {
-          "patternType": "HEADING",
-          "blocks": 1
-        }
-      },
-      "author": {
-        "config": {
-          "patternType": "PARAGRAPH",
-          "blocks": 1
-        }
-      },
       "content": {
         "headding": {
           "config": {
@@ -31,6 +13,24 @@
             "patternType": "PARAGRAPH",
             "blocks": 1
           }
+        }
+      },
+      "titleee": {
+        "config": {
+          "patternType": "HEADING",
+          "blocks": 1
+        }
+      },
+      "subtitlee": {
+        "config": {
+          "patternType": "HEADING",
+          "blocks": 1
+        }
+      },
+      "authorr": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
         }
       }
     }
